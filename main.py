@@ -19,6 +19,7 @@ def main():
 
         if scelta == "1":
             nuovo_nome = input("Inserisci il nuovo nome della crociera: ")
+            crociera.set_nome(nuovo_nome)
             # TODO: Aggiorna il nome della crociera
 
         elif scelta == "2":
